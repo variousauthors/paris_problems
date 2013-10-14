@@ -1,0 +1,37 @@
+
+.maincontents
+{
+  float:left;
+  width:510px;
+  margin:70px 20px 20px auto;
+  padding:0;
+  min-height:540px;
+  line-height:200%;
+}
+
+.message
+{
+  position:relative;
+  padding:30px;
+  background:#fff;
+  display:block;
+}
+
+
+/* footer */
+
+footer.bottom
+{
+  display:block;
+  text-align:left;
+  font-size:90%;
+  clear:both;
+  color:#666;
+  padding:50px 0 20px 0;
+}
+
+footer.bottom a
+{
+  font-size:90%;
+  padding:0 5px;
+}

@@ -1,0 +1,170 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  padding:0 0 0 30px;
+}
+
+body, input, textarea, button, form, div, td, ul, li, p, a {
+  font-family: 'Hiragino Gothic Pro', Meiryo, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #505050;
+  letter-spacing:1px;
+}
+
+h1
+{
+  font-family: 'Hiragino Mincho Pro',"MS PMincho";
+  font-size:140%;
+  letter-spacing:2px;
+  color:#666666;
+  font-weight:normal;
+  line-height:110%;
+  margin:10px 0 20px 0;
+  display:block;
+}
+
+h2
+{
+  font-size:120%;
+  line-height:110%;
+  color:#6e6351;
+  font-weight:normal;
+  border-bottom:1px solid #bab5af;
+  padding:0 0 3px 0;
+  margin:10px 0 20px 0;
+}
+
+h3
+{
+  font-size:100%;
+  line-height:110%;
+  color:#6e6351;
+  font-weight:normal;
+  padding:0 0 3px 0;
+  margin:10px 0 20px 0;
+}
+
+a
+{
+  color:#7a974b;
+  text-decoration:none;
+}
+
+a:hover
+{
+  color:#666;
+  text-decoration:underline;
+}
+
+a.readmore
+{
+  background:#7a974b;
+  color:#fff;
+  text-align:center;
+  float:right;
+  border:1px solid #7a974b;
+  padding:5px;
+  margin:0;
+  width:90px;
+  display:block;
+}
+
+li a.readmore
+{
+  background:#7a974b;
+  color:#fff;
+  text-align:center;
+  float:right;
+  border:1px solid #7a974b;
+  padding:0 5px;
+  margin:0;
+  width:120px;
+  display:block;
+  line-height:20px;
+}
+
+a#wide
+{
+  float:none;
+  width:90%;
+  padding:10px;
+  margin:10px;
+}
+
+a.readmore:hover
+{
+  color:#7a974b;
+  background:none;
+  text-decoration:none;
+}
+
+hr
+{
+  border:1px solid #ccc;
+  margin:20px 0;
+}
+
+p#small
+{
+  font-size:11px;
+}
+
+.maincontents ul,.maincontents ol
+{
+  margin:10px;
+}
+
+.maincontents ul li
+{ 
+  margin-left: 5px; 
+  margin-top:10px;
+}
+
+.maincontents ol li
+{ 
+  margin-left: 20px; 
+  margin-top:10px;
+}
+
+
+.maincontents ul ul 
+{
+  padding:10px;
+}
+
+.maincontents ul ul li
+{
+  font-size:90%;
+  margin-left: 10px; 
+  margin-top:2px;
+  list-style-type: none; 
+  padding-left: 15px; 
+  line-height:130%;
+}
+
+
+#pagewrap
+{
+  width:920px;
+  margin:0 auto 0 0;
+}
+
+#site_head
+{
+  padding:30px 0 10px 10px;
+  margin:0;
+}
+
+#site_head h1
+{
+  margin:0;
+}
+
