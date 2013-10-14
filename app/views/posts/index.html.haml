@@ -10,7 +10,7 @@
 
   - @posts.each do |post|
     %tr
-      %td= post.title
+      %td= post.short_name
       %td= post.text
       %td= link_to 'Show', post_path(post)
       %td= link_to 'Edit', edit_post_path(post)

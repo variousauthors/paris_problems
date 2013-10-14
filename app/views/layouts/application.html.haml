@@ -24,7 +24,7 @@
         %ul.mainmenu
           - @menu_items.each do |item|
             %li
-              = link_to item.title, post_path(item), { class: "menu" }
+              = link_to item.short_name, post_path(item), { class: "menu" }
 
     = yield
 
