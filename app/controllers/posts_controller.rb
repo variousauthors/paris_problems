@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  before_filter :populate_menu
 
   def new
     @post = Post.new
@@ -47,5 +48,9 @@ class PostsController < ApplicationController
 
   def post_params
     params.require(:post).permit(:title, :text)
+  end
+
+  def populate_menu
+    @menu_items = Post.all
   end
 end
